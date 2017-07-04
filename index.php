@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <link rel="Shortcut Icon" href="./site.ico">
+    <link rel="stylesheet" href="./src/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="./src/css/style.css" />
+    <title>Dota2</title>
+  </head>
+  <body>
+    <div>
+        <?php include './src/page/header.html'; ?>
+    </div>
+    <div>
+        <?php include './src/page/container.html'; ?>
+    </div>
+    <div>
+        <?php include './src/page/footer.html'; ?>
+    </div>
+    <script type="text/javascript" src="static/js/jquery.js"></script>
+    <script type="text/javascript" src="static/js/globel.js"></script>
+    <script type="text/javascript" src="static/js/bootstrap.js"></script>
+  </body>
+</html>

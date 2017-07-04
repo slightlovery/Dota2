@@ -1,0 +1,168 @@
+* {
+    padding:0;
+    margin:0
+}
+
+html,body{
+    width: 100%;
+    height: 100%;
+    background-color: #1a1b1f;
+}
+
+.menu{
+    width: 100%;
+    height: 80px;
+    background-color: #000000;
+}
+
+.nav_container{
+    width: 100%;
+    height: 80px;
+    background-color: #000000;
+}
+
+.nav_main{
+    width: 1240px;
+    height: 100%;
+    margin: 0 auto;
+}
+
+.nav_logo{
+    float: left;
+    width: 260px;
+    height: 40px;
+    margin-top: 20px;
+    margin-right: 20px;
+    outline: none;
+}
+
+.nav_logo .nav_a{
+    display: block;
+    width: 260px;
+    height: 40px;
+    background: url("../img/logo.jpg") center top no-repeat;
+}
+
+.nav_main .nav_bar{
+    float: left;
+    height: 100%;
+    width: 700px;
+}
+
+.nav_main .nav_bar .link_div{
+    position: relative;
+    float: left;
+    padding: 8px 7px;
+    text-align: center;
+    width: 92px;
+}
+
+.nav_main .nav_bar .link_div a{
+    float: left;
+    display: block;
+    font-size: 20px;
+    color: #a5a5a5;
+    text-decoration: none;
+}
+
+.nav_main .nav_bar .link_div .link_div_e{
+    font-size: 9px;
+    text-align: center;
+}
+
+.nav_main .nav_user{
+    float: right;
+    width: 260px;
+    height: 100%;
+    margin-right: 0;
+    position: relative;
+}
+
+.nav_main .nav_user .info{
+    height: 80px;
+}
+
+.nav_main .nav_user .info .login_img{
+    float: left;
+    height: 60px;
+    width: 60px;
+    margin-top: 10px;
+    position: absolute;
+    background-image: url("../img/login.png");
+}
+
+.nav_main .nav_user .info .login_box{
+    float: left;
+    margin-top: 15px;
+    margin-left: 70px;
+    display: block;
+}
+
+.nav_main .nav_user .info .login_box .login_info{
+    font-size: 20px;
+    color: #ffffff;
+}
+
+.nav_main .nav_user .info .login_box .login_info1{
+    font-size: 10px;
+    color: #ffffff;
+}
+
+.u_wrapper{
+    width: 100%;
+    font-size: 14px;
+    font-family: 'Microsoft YaHei', Î¢ÈíÑÅºÚ, Arial, "Helvetica Neue", Helvetica, sans-serif;
+    overflow: hidden;
+}
+
+.u_wrapper .u_container{
+    width: 100%;
+    margin: 0 auto;
+    color: #999999;
+    padding-bottom: 65px;
+}
+
+.u_container .u_header{
+    position: relative;
+    width: 100%;
+    height: 600px;
+    margin: 0 auto;
+    overflow: hidden;
+}
+
+.footer{
+    font-family: "Microsoft YaHei", Î¢ÈíÑÅºÚ, Arial, "Helvetica Neue", Helvetica, sans-serif;
+    height: 160px;
+    background-color: #000;
+    z-index: 1;
+    font-size: 12px;
+    color: rgb(149, 149, 149);
+    position: relative;
+    background-repeat: no-repeat
+}
+
+.footer .foot{
+    width: 1100px;
+    margin: 0 auto;
+    padding-top: 20px;
+    position: relative;
+}
+
+.footer .foot .foot_img{
+    float: left;
+    height: 40px;
+    width: 286px;
+    margin-right: 20px;
+}
+
+.footer .foot .foot_img .foot_a{
+    display: block;
+    height: 40px;
+    width: 286px;
+    background: url("../img/footer.png");
+}
+
+.footer .foot .foot_info{
+    text-align: center;
+    color: #333333;
+}

@@ -17,8 +17,8 @@
     <div>
         <?php include './src/page/footer.html'; ?>
     </div>
-    <script type="text/javascript" src="static/js/jquery.js"></script>
-    <script type="text/javascript" src="static/js/globel.js"></script>
-    <script type="text/javascript" src="static/js/bootstrap.js"></script>
+    <script type="text/javascript" src="./src/js/jquery.js"></script>
+    <script type="text/javascript" src="./src/js/globel.js"></script>
+    <script type="text/javascript" src="./src/js/bootstrap.min.js"></script>
   </body>
 </html>

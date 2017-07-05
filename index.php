@@ -2,7 +2,7 @@
 <html>
   <head>
     <meta charset="utf-8">
-    <link rel="Shortcut Icon" href="./site.ico">
+    <link rel="Shortcut Icon" href="./site.jpeg">
     <link rel="stylesheet" href="./src/css/bootstrap.min.css"/>
     <link rel="stylesheet" href="./src/css/style.css" />
     <title>Dota2</title>

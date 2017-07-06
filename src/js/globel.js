@@ -10,7 +10,7 @@ $(function(){
         var _this = $(this);
         var index = _this.index();
         var tabs = _this.parent('.u_tabs');
-        tabs.find('.u_tab .u_active').removeClass('u_active');
+        tabs.find('.u_tab.u_active').removeClass('u_active');
         _this.addClass('u_active');
     })
 });

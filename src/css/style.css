@@ -9,18 +9,13 @@ html,body{
     background-color: #1a1b1f;
 }
 
-.menu{
-    width: 100%;
-    height: 80px;
-    background-color: #000000;
-}
-
-.nav_container{
+.dota2_nav_container{
     width: 100%;
     height: 80px;
     background-color: #000000;
     font-family: "Microsoft YaHei", Î¢ÈíÑÅºÚ, Arial, "Helvetica Neue", Helvetica, sans-serif;
 }
+
 
 .nav_main{
     width: 1240px;
@@ -67,7 +62,7 @@ html,body{
 }
 
 .nav_main .nav_bar .link_div .link_div_e{
-    font-size: 8px;
+    font-size: .8em;
     text-align: center;
 }
 
@@ -109,18 +104,28 @@ html,body{
 }
 
 .nav_main .nav_user .info .login_box .login_info1{
-    font-size: 8px;
+    font-size: .8em;
     color: #ffffff;
 }
 
-.u_wrapper{
+.banner{
     width: 100%;
+    height: 500px;
+    margin: 0 auto;
+    position: relative;
+    overflow: hidden;
+}
+
+.u_wrapper{
+    width: 1240px;
+    margin: 0 auto;
     font-size: 14px;
+    font-family: "Microsoft YaHei";
     overflow: hidden;
 }
 
 .u_wrapper .u_container{
-    width: 100%;
+    min-width: 1240px;
     margin: 0 auto;
     color: #999999;
     padding-bottom: 65px;
@@ -132,6 +137,11 @@ html,body{
     height: 500px;
     margin: 0 auto;
     overflow: hidden;
+}
+
+.u_container .u_header .u_banner{
+    width: 100%;
+    height: 100%;
 }
 
 .u_container .u_section{
@@ -331,7 +341,7 @@ html,body{
 
 .u_container .u_section .u_content a{
     display: block;
-
+    text-decoration: none;
 }
 
 .u_container .u_section .u_content .u_video{
@@ -357,6 +367,14 @@ html,body{
     width: 100%;
     overflow: hidden;
     color: #999999;
+}
+
+.u_container .u_panels{
+    width: 100%;
+}
+
+.u_container .u_panels .u_panel{
+    width: 100%;
 }
 
 .u_container ul{
@@ -389,10 +407,60 @@ html,body{
     transition: border-color 0.5s ease;
 }
 
+.u_container .u_panels .u_panel.u_active{
+    display: block;
+}
+
+.u_container .u_panel .u_recommend{
+    display: block;
+    padding: 15px 40px 15px 20px;
+    margin: 25px 5px 15px 5px;
+    border: 1px solid transparent;
+    box-sizing: border-box;
+}
+
+.u_container .u_recommend .u_contents{
+    margin-top: 22px;
+    overflow: hidden;
+    color: #999999;
+}
+
+.u_container .u_recommend .u_item_avatar{
+    float: left;
+    width: 200px;
+    height: 120px;
+    margin-right: 20px;
+}
+
+.u_container .u_panel .u_list{
+    height: 45px;
+    line-height: 45px;
+    padding: 0 40px 0 20px;
+    color: #bbbbbb;
+    overflow: hidden;
+    font-size: 1.1em;
+}
+
+.u_container .u_panel .u_list p{
+    float: left;
+}
+
+.u_container .u_panel .u_list span{
+    float: right;
+}
+
+.u_container .u_recommend .u_item_avatar img{
+    display: block;
+    width: 100%;
+    height: 100%;
+}
+
 .footer{
     font-family: "Microsoft YaHei", Î¢ÈíÑÅºÚ, Arial, "Helvetica Neue", Helvetica, sans-serif;
     height: 160px;
+    width: 100%;
     background-color: #000;
+    overflow: hidden;
     z-index: 1;
     font-size: 12px;
     color: rgb(149, 149, 149);
@@ -424,4 +492,36 @@ html,body{
 .footer .foot .foot_info{
     text-align: center;
     color: #333333;
+}
+
+@media screen and (min-width: 1700px){
+    .banner{
+        position: relative;
+        height: 600px;
+        width: 1920px;
+        margin: 0 auto;
+        overflow: hidden;
+    }
+    .footer{
+        position: relative;
+        width: 1920px;
+        margin: 0 auto;
+        overflow: hidden;
+    }
+}
+
+@media screen and (max-width: 1240px){
+    .banner{
+        position: relative;
+        height: 500px;
+        width: 1240px;
+        margin: 0 auto;
+        overflow: hidden;
+    }
+    .footer{
+        position: relative;
+        width: 1240px;
+        margin: 0 auto;
+        overflow: hidden;
+    }
 }

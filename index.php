@@ -8,13 +8,16 @@
     <title>Dota2</title>
   </head>
   <body>
-    <div>
+    <div class="dota2_nav_container">
         <?php include './src/page/header.html'; ?>
     </div>
-    <div>
+    <div class="banner">
+        <?php include './src/page/banner.html'; ?>
+    </div>
+    <div class="u_wrapper">
         <?php include './src/page/container.html'; ?>
     </div>
-    <div>
+    <div class="footer">
         <?php include './src/page/footer.html'; ?>
     </div>
     <script type="text/javascript" src="./src/js/jquery.js"></script>

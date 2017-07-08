@@ -152,15 +152,14 @@ html,body{
 
 .u_container .u_section .u_left_box{
     width: 750px;
-    height: 95px;
     float: left;
     box-sizing: border-box;
     position: relative;
 }
 
+
 .u_container .u_btn_section .u_left_box{
     width: 750px;
-    height: 95px;
     float: left;
     box-sizing: border-box;
     position: relative;
@@ -225,13 +224,26 @@ html,body{
 }
 
 .u_container .u_section .u_hot{
-    margin-bottom: 20px;
+    margin-bottom: 40px;
 }
 
 .u_container .u_section .u_racecenter{
     display: block;
     width: 418px;
     overflow: hidden;
+}
+
+.u_container .u_section .u_racecenter .u_race_span{
+    text-align: center;
+    font-size: 20px;
+    color: #eeeeee;
+    overflow: hidden;
+    padding: 10px 10px;
+    white-space: nowrap;
+}
+
+.u_container .u_section .u_racecenter .u_race_span p{
+    text-decoration: none;
 }
 
 .u_container .u_section .u_right_box{
@@ -321,6 +333,38 @@ html,body{
     background: url("../img/hot.png");
 }
 
+.u_container .u_icon_activity{
+    background: url("../img/activity_img.png");
+}
+
+.u_container .u_section .u_activity_content{
+    width: 745px;
+    height: 470px;
+    overflow: hidden;
+}
+
+.u_container .u_section .u_activity_container{
+    padding: 40px 40px 10px;
+    display: none;
+}
+
+.u_container .u_section .u_activity_border{
+    border: 1px solid #555555;
+}
+
+.u_container .u_section .u_activity_container.u_active{
+    display: block;
+}
+
+.u_container .u_section .u_activity_container .u_activity_row{
+    overflow: hidden;
+    margin-top: 30px;
+}
+
+.u_container .u_section .u_activity_container .u_activity_row:first-child{
+    margin-top: 0;
+}
+
 .u_container .u_section .u_right{
     display: block;
     float: right;
@@ -328,6 +372,62 @@ html,body{
     line-height: 20px;
     padding-top: 8px;
     text-align: right;
+}
+
+.u_container .u_section .u_activity{
+    position: relative;
+    float: left;
+    text-align: center;
+    width: 310px;
+    color: #999;
+    font-size: 16px;
+    border: 1px solid transparent;
+    margin-right: 20px;
+}
+
+.u_container .u_section .u_activity_logo{
+    display: block;
+    width: 100%;
+    height: 150px;
+    border: 1px solid #020203;
+}
+
+.u_container .u_section .u_activity_title{
+    margin-top: 10px;
+    line-height: 20px;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    overflow: hidden;
+    font-size: 16px;
+    color: #999999;
+}
+
+.u_section .u_activity_list{
+    float: right;
+    width: 563px;
+    position: absolute;
+    right: 0;
+}
+
+.u_section .u_activity_list .u_activity_type{
+    float: left;
+    font-size: 14px;
+    color: #999999;
+    cursor: pointer;
+    width: 140px;
+    text-align: center;
+    height: 39px;
+    position: relative;
+    padding-top: 9px;
+}
+
+.u_section .u_activity_list .selected{
+    color: #00c0ff;
+    border: 1px solid #00c0ff;
+}
+
+.u_section .u_activity_list .u_border{
+    border-right: 1px solid #333333;
 }
 
 .u_container .u_section .u_right a{
@@ -357,7 +457,7 @@ html,body{
 
 .u_container .u_section .u_ol{
     display: block;
-    padding-top: 50px;
+    padding-top: 40px;
     width: 418px;
     height: 10px;
     text-align: center;
@@ -371,10 +471,12 @@ html,body{
 
 .u_container .u_panels{
     width: 100%;
+    border: solid 1px #555555;
 }
 
 .u_container .u_panels .u_panel{
     width: 100%;
+    display: none;
 }
 
 .u_container ul{
@@ -445,6 +547,10 @@ html,body{
     float: left;
 }
 
+.u_container .u_panel .u_list.u_highlight{
+    background-color: #000000;
+}
+
 .u_container .u_panel .u_list span{
     float: right;
 }
@@ -513,7 +619,7 @@ html,body{
 @media screen and (max-width: 1240px){
     .banner{
         position: relative;
-        height: 500px;
+        height: 400px;
         width: 1240px;
         margin: 0 auto;
         overflow: hidden;

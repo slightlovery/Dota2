@@ -2,7 +2,7 @@
 <html>
   <head>
     <meta charset="utf-8">
-    <link rel="Shortcut Icon" href="./site.jpeg">
+    <link rel="Shortcut Icon" href="./site.png">
     <link rel="stylesheet" href="./src/css/bootstrap.min.css"/>
     <link rel="stylesheet" href="./src/css/style.css" />
     <title>Dota2</title>
@@ -15,10 +15,18 @@
         <?php include './src/page/banner.html'; ?>
     </div>
     <div class="u_wrapper">
-        <?php include './src/page/container.html'; ?>
+        <div class="u_container">
+            <?php include './src/page/btn_section.html'; ?>
+            <?php include './src/page/news_section.html'; ?>
+            <?php include './src/page/activity_section.html'; ?>
+            <?php include './src/page/video_section.html'; ?>
+        </div>
     </div>
     <div class="footer">
         <?php include './src/page/footer.html'; ?>
+    </div>
+    <div class="nav_right">
+        <?php include './src/page/nav_right.html'; ?>
     </div>
     <script type="text/javascript" src="./src/js/jquery.js"></script>
     <script type="text/javascript" src="./src/js/globel.js"></script>

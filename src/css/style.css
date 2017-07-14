@@ -12,8 +12,8 @@ html,body{
 .dota2_nav_container{
     width: 100%;
     height: 80px;
-    background-color: #000000;
-    font-family: "Microsoft YaHei", Î¢ÈíÑÅºÚ, Arial, "Helvetica Neue", Helvetica, sans-serif;
+    background-color: #050505;
+    font-family: "Microsoft YaHei", å¾®è½¯é›…é»‘, Arial, "Helvetica Neue", Helvetica, sans-serif;
 }
 
 
@@ -257,6 +257,11 @@ html,body{
     margin-bottom: 40px;
 }
 
+.u_container .u_section .u_hot a:hover{
+    border-color: #00c0ff;
+    transition: border-color 0.5s ease ;
+}
+
 .u_container .u_section .u_racecenter{
     display: block;
     width: 418px;
@@ -361,7 +366,7 @@ html,body{
     height: 36px;
     vertical-align: middle;
     position: relative;
-    background: url("../img/search.png");
+    background: url("../img/search.jpg");
 }
 
 .u_container .u_icon_service{
@@ -435,8 +440,14 @@ html,body{
     overflow: hidden;
 }
 
+.u_container .u_activity_section a:hover{
+    border-color: #00c0ff;
+    color: #00c0ff;
+    transition: border-color 0.5s ease;
+}
+
 .u_container .u_section .u_activity_container{
-    padding: 40px 40px 10px;
+    padding: 40px 35px 10px;
     display: none;
     overflow: hidden;
 }
@@ -460,7 +471,7 @@ html,body{
 
 .u_container .u_section .u_activity_container .u_item_list{
     width: 300px;
-    height: 464px;
+    height: 414px;
     float: left;
 }
 
@@ -483,6 +494,14 @@ html,body{
     height: 200px;
 }
 
+.u_container .u_section_news a:link{
+    text-decoration: none;
+}
+
+.u_container .u_video_section a:link{
+    text-decoration: none;
+}
+
 .u_container .u_section .u_activity_container .u_item_hot{
     top: 0;
     width: 80px;
@@ -498,17 +517,16 @@ html,body{
 
 .u_container .u_section .u_activity_container .u_item_price{
     color: #a93827;
-    padding-top: 8px;
     font-size: 16px;
+    padding-bottom: 10px;
 }
 
 .u_container .u_section .u_activity_container .u_item_remark{
     color: #666666;
-    padding-top: 20px;
-    margin-bottom: 20px;
+    margin-bottom: 10px;
     font-size: 14px;
     overflow: hidden;
-    height: 60px;
+    height: 50px;
 }
 
 .u_container .u_section .u_activity_row a:link{
@@ -540,7 +558,7 @@ html,body{
     position: relative;
     float: left;
     text-align: center;
-    width: 310px;
+    width: 313px;
     color: #999;
     font-size: 16px;
     border: 1px solid transparent;
@@ -625,6 +643,17 @@ html,body{
     text-align: center;
 }
 
+.u_container .u_video_section .u_left_box a:hover{
+    border-color: #00c0ff;
+    color: #00c0ff;
+    transition: border-color 0.5s ease;
+}
+
+.u_container .u_video_section .u_right_box a:hover{
+    color: #00c0ff;
+    transition: color 0.5s ease;
+}
+
 .u_container .u_video_section .u_service .u_content{
     padding: 20px 20px 5px 20px;
     height: 450px;
@@ -684,11 +713,11 @@ html,body{
 
 .u_container .u_inputgroup .u_input{
     width: 240px;
-    height: 35px;
+    height: 36px;
     border: 1px solid #08080a;
     background-color: #111214;
     outline: none;
-    line-height: 35px;
+    line-height: 36px;
     border-radius: 2px;
     box-sizing: border-box;
     float: left;
@@ -698,7 +727,7 @@ html,body{
     width: 36px;
     height: 36px;
     float: left;
-    background: url("../img/search.png");
+    background: url("../img/search.jpg");
 }
 
 .u_container .u_tabs{
@@ -787,15 +816,21 @@ html,body{
     box-sizing: border-box;
 }
 
+.u_container .u_panels .u_lists a:hover{
+    border-color: #00c0ff;
+    color: #00c0ff;
+    transition: color 0.5s ease;
+}
+
 .u_container .u_video_section .u_item{
     display: block;
     position: relative;
     float: left;
-    margin-left: 5px;
-    margin-right: 5px;
-    padding: 10px;
+    margin-left: 10px;
+    margin-right: 10px;
+    padding: 20px;
     width: 225px;
-    height: 190px;
+    height: 200px;
     color: #999;
     -moz-box-sizing: border-box;
     -webkit-box-sizing: border-box;
@@ -881,7 +916,7 @@ html,body{
 }
 
 .footer{
-    font-family: "Microsoft YaHei", Î¢ÈíÑÅºÚ, Arial, "Helvetica Neue", Helvetica, sans-serif;
+    font-family: "Microsoft YaHei", å¾®è½¯é›…é»‘, Arial, "Helvetica Neue", Helvetica, sans-serif;
     height: 160px;
     width: 100%;
     background-color: #000;
@@ -919,45 +954,13 @@ html,body{
     color: #333333;
 }
 
-@media screen and (min-width: 1700px){
-    .banner{
-        position: relative;
-        height: 600px;
-        width: 1920px;
-        margin: 0 auto;
-        overflow: hidden;
-    }
-    .footer{
-        position: relative;
-        width: 1920px;
-        margin: 0 auto;
-        overflow: hidden;
-    }
-}
-
-@media screen and (max-width: 1240px){
-    .banner{
-        position: relative;
-        height: 400px;
-        width: 1240px;
-        margin: 0 auto;
-        overflow: hidden;
-    }
-    .footer{
-        position: relative;
-        width: 1240px;
-        margin: 0 auto;
-        overflow: hidden;
-    }
-}
-
 .nav_right{
     width: 160px;
     height: 452px;
     color: #999999;
     position: fixed;
     top: 15%;
-    right: 15px;
+    right: 0;
     background-color: #111111;
     z-index: 1001;
     text-align: center;
@@ -984,4 +987,40 @@ html,body{
     border: 1px solid #444444;
     padding-top: 10px;
     padding-bottom: 20px;
+}
+
+@media screen and (min-width: 1700px){
+    .banner{
+        position: relative;
+        height: 600px;
+        width: 1920px;
+        margin: 0 auto;
+        overflow: hidden;
+    }
+    .footer{
+        position: relative;
+        width: 1920px;
+        margin: 0 auto;
+        overflow: hidden;
+    }
+}
+
+@media screen and (max-width: 1240px){
+    .dota2_nav_container{
+        width: 1240px;
+    }
+
+    .banner{
+        position: relative;
+        height: 400px;
+        width: 1240px;
+        margin: 0 auto;
+        overflow: hidden;
+    }
+    .footer{
+        position: relative;
+        width: 1240px;
+        margin: 0 auto;
+        overflow: hidden;
+    }
 }

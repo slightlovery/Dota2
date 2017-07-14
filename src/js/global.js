@@ -28,26 +28,24 @@ $(function(){
         panels.find('>.u_panel').eq(index).addClass('u_active');
     });
     
-    $('.u_section .u_activity_list').on('focus','.u_activity_type', function () {
+    $('.u_section .u_activity_list').on('mouseover','.u_activity_type', function () {
         var _this = $(this);
-        var index = _this.dataset.type-1;
+        var index = _this.index();
         var list = _this.parent('.u_activity_list');
-        list.find(".u_activity_type.selected").removeClass('.selected');
-        _this.addClass('.selected');
+        list.find(".u_activity_type.selected").removeClass('selected');
+        _this.addClass('selected');
         var content = $('.u_container .u_section .u_activity_border');
         content.find('>.u_activity_container.u_active').removeClass('u_active');
         content.find('>.u_activity_container').eq(index).addClass('u_active');
     });
 
-    $('.nav_main .nav_bar').on('mouseenter','.link_div', function () {
+    $('.nav_main .nav_bar').on('mouseover','.link_div', function () {
         var _this = $(this);
         var nav = _this.parent('.nav_bar');
-        nav.find('.link_div.link_active').removeClass('link_active');
-        _this.addClass('link_active')
+        nav.find('.link_pop.link_active').removeClass('link_active');
+        _this.find('.link_pop').addClass('link_active')
     }).on('mouseout',function(){
         var _this = $(this);
-        _this.find('>.link_div.link_active').removeClass('link_active');
+        _this.find('.link_pop.link_active').removeClass('link_active');
     });
-
-
 });

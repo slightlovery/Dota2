@@ -2,10 +2,11 @@
 <html>
   <head>
     <meta charset="utf-8">
+    <meta name=”viewport” content=”width=device-width, initial-scale=1, maximum-scale=1″>
     <link rel="Shortcut Icon" href="./site.png">
     <link rel="stylesheet" href="./src/css/bootstrap.min.css"/>
     <link rel="stylesheet" href="./src/css/style.css" />
-    <title>Dota2</title>
+    <title>Dota2-仿官方网站</title>
   </head>
   <body>
     <div class="dota2_nav_container">
@@ -29,7 +30,7 @@
         <?php include './src/page/nav_right.html'; ?>
     </div>
     <script type="text/javascript" src="./src/js/jquery.js"></script>
-    <script type="text/javascript" src="./src/js/globel.js"></script>
+    <script type="text/javascript" src="./src/js/global.js"></script>
     <script type="text/javascript" src="./src/js/bootstrap.min.js"></script>
   </body>
 </html>
